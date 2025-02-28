@@ -20,7 +20,7 @@ jobs:
 
       - name: 必要なパッケージをインストール
         run: |
-          pip install pyinstaller PyMuPDF
+          pip install pyinstaller PyMuPDF numpy
 
       - name: EXE をビルド
         run: |
