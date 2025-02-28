@@ -24,11 +24,11 @@ jobs:
 
       - name: EXE をビルド
         run: |
-          pyinstaller --onefile --icon=my_icon.ico main.py
+          pyinstaller --onefile pdf_parapara2html.py
 
       - name: リリースにアップロード
         uses: softprops/action-gh-release@v1
         with:
-          files: dist/main.exe
+          files: dist/pdf_parapara2html.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
