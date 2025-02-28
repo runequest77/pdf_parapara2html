@@ -1,0 +1,34 @@
+name: Build and Release EXE
+
+on:
+  push:
+    tags:
+      - "v*"  # `v1.0` のようなタグをプッシュしたときに実行
+
+jobs:
+  build:
+    runs-on: windows-latest  # Windows 環境で実行
+
+    steps:
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v3
+
+      - name: Python をセットアップ
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"  # Pythonのバージョン
+
+      - name: 必要なパッケージをインストール
+        run: |
+          pip install pyinstaller
+
+      - name: EXE をビルド
+        run: |
+          pyinstaller --onefile --icon=my_icon.ico main.py
+
+      - name: リリースにアップロード
+        uses: softprops/action-gh-release@v1
+        with:
+          files: dist/main.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
