@@ -31,4 +31,4 @@ jobs:
         with:
           files: dist/pdf_parapara2html.exe
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
