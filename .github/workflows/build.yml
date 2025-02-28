@@ -20,7 +20,7 @@ jobs:
 
       - name: 必要なパッケージをインストール
         run: |
-          pip install pyinstaller
+          pip install pyinstaller PyMuPDF
 
       - name: EXE をビルド
         run: |
