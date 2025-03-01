@@ -15,6 +15,7 @@
 1. **[pdf_parapara2html.exe](https://github.com/runequest77/pdf_parapara2html/releases) をダウンロード**
 2. **変換したい PDF を `pdf_parapara2html.exe` にドラッグ＆ドロップ**
 3. **PDF と同じフォルダに `PDF名.json` と `PDF名.html` が生成されます。**
+4. `PDF名.html` をブラウザで開いて、ぱらぱらとお読みください😊
 ### ⚠️ 注 意 ⚠️
 初回実行時、「Windows によって PC が保護されました」 や 「発行元が不明なアプリ」 の警告が出ます。
 
