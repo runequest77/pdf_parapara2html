@@ -1,22 +1,22 @@
 # PDF ParaPara2Html
 **英文のPDF** を **段組み** や **囲み記事** などの文章構造を解析し、**読み順に整えた HTML** を生成する WIndows 用ツールです！✍
 
-`.exe` に **PDF をドラッグ＆ドロップ** するだけ！
+**PDF をドラッグ＆ドロップ** するだけ！
 
 - Htmlタグに元のフォント情報を style として埋め込んでいます。<br>head内の style を変更すれば、好きな style を適用できます。
 - テキストを成形したい方向けに、**JSONデータ** も出力します。
 - **OCR**はしていません。文字が埋め込まれている英文PDFが対象です。
 
 ## 使い方 🛠
-1. **[GitHub Releases](https://github.com/memo77/releases) から `.exe` をダウンロード**
-2. **変換したい PDF を `.exe` にドラッグ＆ドロップ**
+1. **[GitHub Releases](https://github.com/runequest77/pdf_parapara2html/releases) から `pdf_parapara2html.exe` をダウンロード**
+2. **変換したい PDF を `pdf_parapara2html.exe` にドラッグ＆ドロップ**
 3. **PDF と同じフォルダに `PDF名.json` と `PDF名.html` が生成されます。**
 ### ⚠️ 注 意 ⚠️
 初回実行時、「Windows によって PC が保護されました」 や 「発行元が不明なアプリ」 の警告が出ます。
 
 ⇒「詳細情報」をクリックして「実行」ボタンを押して起動してください。
 > 実行ファイルは Python スクリプトを PyInstaller でビルドしたものです。<br>
-> 安全性に懸念のある方は Python の実行環境を整え、pdf_parapara2html.py を お使いください。<br>
+> 安全性に懸念のある方は Python の実行環境を整え、`pdf_parapara2html.py` を お使いください。<br>
 > スクリプトとして実行すれば Windows 以外でも使えます。
 
 ## ライセンス 📄
@@ -24,7 +24,7 @@
 
 ## 一部の方々向け情報
 **PDF ParaPara2Html** は作成中の自動翻訳ツールから英文の構造化テキスト抽出の機能だけ抜き出したツールです。
-TRPGのルールブックは文章だけだと読み取りにくいため、現在、画面上でPDFと原文と訳文を並べて表示できる「PDF ParaParaTran」を作成しています。
+TRPGのルールブックは文章だけだと読み取りにくいため、現在、画面上でPDFと原文と訳文を並べて表示できる **「PDF ParaParaTran」** を作成しています。
 Web系のUI開発に不慣れで手探り状態ですので、お手伝いいただける方がいましたらお声がけいただけるとありがたいです。
 [X(twitter) @nayuta77](https://x.com/nayuta77)
 
