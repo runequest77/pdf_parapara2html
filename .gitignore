@@ -1,0 +1,16 @@
+# Python関連
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code設定
+.vscode/
+
+# ビルド成果物
+build/
+dist/
+*.spec
+
+# 仮想環境 (venvやpipenv)
+venv/
+.env
