@@ -8,7 +8,7 @@
 - **OCR**はしていません。文字が埋め込まれている英文PDFが対象です。
 
 ## 使い方 🛠
-1. **[GitHub Releases](https://github.com/runequest77/pdf_parapara2html/releases) から `pdf_parapara2html.exe` をダウンロード**
+1. **[pdf_parapara2html.exe](https://github.com/runequest77/pdf_parapara2html/releases) をダウンロード**
 2. **変換したい PDF を `pdf_parapara2html.exe` にドラッグ＆ドロップ**
 3. **PDF と同じフォルダに `PDF名.json` と `PDF名.html` が生成されます。**
 ### ⚠️ 注 意 ⚠️
