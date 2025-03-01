@@ -1,3 +1,11 @@
+# multi_column.py
+#
+# This file is part of PyMuPDF Utilities.
+# Originally developed by the PyMuPDF team (https://github.com/pymupdf/PyMuPDF-Utilities).
+# 
+# This software is released under the GNU Affero General Public License (AGPL-3.0).
+# See the LICENSE file in the repository root for details.
+
 """
 This is an advanced PyMuPDF utility for detecting multi-column pages.
 It can be used in a shell script, or its main function can be imported and
